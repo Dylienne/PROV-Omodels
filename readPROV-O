@@ -1,20 +1,49 @@
-
 #written by Dimq 
+# Master Thesis Code
 
 
 import numpy as np
 import pandas as pd
+import matplotlib as mplt 
 
 # step 1: import data set solely the "result fractions 
 
-rawprov = open('/Users/Dylienneevery/Desktop/Thesis/PROV Data/Git2PROV repository PROV-O.txt',).read()
+rawprov = open('/Users/Dylienneevery/Desktop/Thesis/PROV Data/Git2PROV repository PROV-O.txt').read()
 data = rawprov
 
 for line in data:
-    if line[0:5] == 'result':
+    if line == 'result':
         Result = 0
         Result +=1 
+print(data)
 
-#print(data)
+#create sets of provenance entities
+
+Entities sets 
+Activity sets
+Agent set    
+    
+#step 2 count prov: activities in repository - counts
+
+def ProvEntityCount():
+    for line in data:
+        if word in line == "prov:"
+        
+def ProvAgentCount():
+
+def ProvActivityCounts():
+    
+
+#step 3: scope timestamp of activity
+
+
+# Summary of repository 
+
+print("this repository has ")
+print("this repository has ")
+print("this repository has ")
+print("this repository has ")
+print("this repository has ")
+
 
 
