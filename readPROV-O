@@ -1,0 +1,20 @@
+
+#written by Dimq 
+
+
+import numpy as np
+import pandas as pd
+
+# step 1: import data set solely the "result fractions 
+
+rawprov = open('/Users/Dylienneevery/Desktop/Thesis/PROV Data/Git2PROV repository PROV-O.txt',).read()
+data = rawprov
+
+for line in data:
+    if line[0:5] == 'result':
+        Result = 0
+        Result +=1 
+
+#print(data)
+
+
