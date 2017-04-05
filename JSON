@@ -1,0 +1,25 @@
+import json
+import numpy as np
+
+#PROV file from PROV store with 
+file= read.json(...)
+
+def readDocument():
+    json.dump()
+
+def extractentity():
+    number = []
+    for x in file:
+        if line[0:10]== "prov:X"
+            number.append(line)
+            return number
+
+def countentities()
+    counter = 0
+    for number in extractentity():
+        if number == number:
+            print()
+
+
+def calculateInstances():
+    amountofinstances= [list]
